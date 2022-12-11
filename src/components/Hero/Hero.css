@@ -1,0 +1,119 @@
+.container {
+  padding: 0rem 2rem;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+ .wrapper { 
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  position: relative;
+} 
+
+.wrapper>img {
+  width: 30rem;
+  position: absolute;
+  top: 0; }
+
+
+  .blueCircle {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    z-index: -99;
+    position:absolute;
+    top: 0;
+    
+    background: linear-gradient(135.174deg, #0bb5ff 14.09%, #6dd3fe 83.81% );
+}
+.cart2 {
+  position: absolute;
+  bottom: 25%;
+  right: 5%;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+
+}
+.cart2>svg {
+  width: 30px;
+  height: 30px;
+  background: white;
+  padding: 10px;
+  border-radius: 50%;
+  border: 6px solid var(--black);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.sigup {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  background: white;
+  padding: 10px;
+  font-size: 0.8re;
+  border-radius: 15px   ;
+  box-shadow: var(--shadow);
+}
+.sigup>:first-child{
+  display: flex;
+  width: 6rem;
+  align-items: right;
+}
+.sigup>:nth-child(2){
+  border-radius: 50%;
+ border: 1px solid skyblue;
+ display: flex;
+ width: 20px;
+ height: 20px;
+ padding: 5px;
+ align-items: center;
+ justify-content: center;
+}
+/*# sourceMappingURL=Hero.css.map */
+ .h_sides {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.text1 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  width: min-content;
+  display: block;
+  font-weight: 600;
+}
+.text2 {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  color: black;
+}
+.text>:nth-child(2){
+  display: block;
+}
+.traffic{
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+.traffic>:first-child{
+  font-weight: 800;
+  font-size: 800;
+}
+.customers {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+.customers>:first-child{
+  font-weight: 800;
+  text-align: right;
+}
